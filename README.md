@@ -12,8 +12,7 @@ This project demonstrates a secure user authentication system that allows users 
 
 ## Requirements
 
-- *Node.js*: >= 12.x
-- *Express.js*: For building the server.
+- *Node.js*,*Express.js*: For building the server.
 - *bcryptjs*: For password hashing.
 - *express-session*: For session management.
 - *jsonwebtoken*: For token-based authentication.
@@ -22,31 +21,30 @@ This project demonstrates a secure user authentication system that allows users 
 ## Installation
 
 1. Clone the repository:
-   bash
-   git clone 
-   
-
+   ~~~
+   git clone "https://github.com/Monishalakshmipathy/CODECRAFT_FS_01.git"
+   ~~~
 2. Navigate to the project directory:
-   bash
+   ~~~
    cd user-authentication
-   
+   ~~~
 
 3. Install the dependencies:
-   bash
+   ~~~
    npm install
-   
+   ~~~
 
 4. Create a .env file and configure the required environment variables:
-   env
+   ~~~
    SESSION_SECRET=your_session_secret_key
    DATABASE_URL=your_database_url
    JWT_SECRET=your_jwt_secret_key (optional)
-   
+   ~~~
 
 5. Start the server:
-   bash
+   ~~~
    npm start
-   
+   ~~~
 
 6. The server will run on http://localhost:3000.
 
